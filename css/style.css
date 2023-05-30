@@ -1,0 +1,71 @@
+.main{
+    margin: 40px 0 40px 10px;
+}
+
+.main .col-form-label {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.main .col-7 {
+    margin-left: -40px;
+    line-height: 26px;
+    padding: 0;
+}
+
+.main .form-control {
+    width: 60%;
+}
+
+.main .btn {
+    margin-left: -90px;
+}
+
+.time p{
+    margin-left: 85px;
+    color: grey;
+}
+
+.fontawesome{
+    margin: 35px 0 35px 0;
+}
+
+.fontawesome sup{
+    font-size: 30px;
+}
+
+.fontawesome .fa-solid {
+    font-size: 100px;
+    margin: 50px 0 60px 100px;
+}
+
+.fontawesome .temp{
+    font-size: 53px;
+    padding-left: 15px;
+    font-family: sans-serif;
+}
+
+.fontawesome p{
+    margin-left: 125px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.fontawesome .cloud{
+    margin-left: 175px;
+    font-size: 30px;
+}
+
+.other h4{
+    color: grey;
+    font-size: large;
+    font-weight: 400;
+}
+
+.other p{
+    font-size: x-large;
+}
+
+.other .container .box2{
+    margin-left: 50px;
+}
