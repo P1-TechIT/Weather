@@ -1,71 +1,147 @@
-.main{
-    margin: 40px 0 40px 10px;
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: #fff;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Section Styling */
+.main {
+    margin: 40px 0;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .main .col-form-label {
-    font-weight: 500;
-    font-size: medium;
-}
-
-.main .col-7 {
-    margin-left: -40px;
-    line-height: 26px;
-    padding: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #fff;
 }
 
 .main .form-control {
-    width: 60%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
 }
 
 .main .btn {
-    margin-left: -90px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
 }
 
-.time p{
-    margin-left: 85px;
-    color: grey;
+.main .btn:hover {
+    background-color: #2980b9;
 }
 
-.fontawesome{
-    margin: 35px 0 35px 0;
+/* Time Section Styling */
+.time p {
+    font-size: 1.1rem;
+    color: #ecf0f1;
+    margin-top: 20px;
 }
 
-.fontawesome sup{
-    font-size: 30px;
+/* Fontawesome Section Styling */
+.fontawesome {
+    margin: 40px 0;
+    text-align: center;
 }
 
 .fontawesome .fa-solid {
-    font-size: 100px;
-    margin: 50px 0 60px 100px;
+    font-size: 120px;
+    color: #f1c40f;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
 }
 
-.fontawesome .temp{
-    font-size: 53px;
-    padding-left: 15px;
-    font-family: sans-serif;
+.fontawesome .fa-solid:hover {
+    transform: scale(1.1);
 }
 
-.fontawesome p{
-    margin-left: 125px;
-    font-size: larger;
-    font-weight: bold;
+.fontawesome .temp {
+    font-size: 70px;
+    font-weight: 700;
+    display: block;
+    color: #fff;
 }
 
-.fontawesome .cloud{
-    margin-left: 175px;
-    font-size: 30px;
+.fontawesome .cloud {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ecf0f1;
+    margin-top: 10px;
 }
 
-.other h4{
-    color: grey;
-    font-size: large;
-    font-weight: 400;
+/* Other Info Section Styling */
+.other {
+    margin-top: 40px;
 }
 
-.other p{
-    font-size: x-large;
+.other .container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.other .container .box2{
+.other h4 {
+    font-size: 1.2rem;
+    color: #ecf0f1;
+    margin-bottom: 10px;
+}
+
+.other p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.other .box2 {
     margin-left: 50px;
+}
+
+.box1, .box2 {
+    flex: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main .form-control, .main .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .fontawesome .temp {
+        font-size: 50px;
+    }
+
+    .fontawesome .fa-solid {
+        font-size: 80px;
+    }
+
+    .other .container {
+        flex-direction: column;
+    }
+
+    .box2 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }
